@@ -4,9 +4,9 @@ const OUTPUT_DIR = process.env.OUTPUT_DIR ?? '/output';
 const OUTPUT_PATH = `${OUTPUT_DIR}/entry.txt`;
 const TMP_PATH = '/tmp/entry.txt';
 
-// First draft text for v1 entry
+// Final scarecrow text - tightened rhythm, unhurried mood
 const TEXT =
-  'Somewhere a clock ticks behind a closed door. The afternoon light moves an inch across the floorboards, and the dust in it drifts like snow that never lands.';
+  'At the field edge the scarecrow leans into wind, arms out, unhurried. Crows settle on the fence and decide, one by one, that it can wait until tomorrow.';
 
 // Ensure temporary file is writable
 writeFileSync(TMP_PATH, '', { encoding: 'utf8', flag: 'w' });
@@ -21,7 +21,7 @@ function ensureLink() {
     } catch (e) {
       // Hard link creation failed, proceed without it
     }
-                    }
+                }
   }
 
 ensureLink();
