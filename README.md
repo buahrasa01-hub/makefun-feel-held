@@ -9,10 +9,10 @@ An entry for the make.fun competition
 image, in plain gentle words, meant to slow the reader down and hold them in
 one place:
 
-> On the far shore a heron stands in the shallows, one leg lifted, not yet
-> deciding, and the whole lake waits with it.
+> On the far shore a heron stands in the shallows. One leg lifted, not yet
+> set down. And nothing decides. The whole lake waits with it, and the light does not hurry.
 
-116 Unicode code points. Deterministic, UTF-8, no trailing newline, no network,
+163 Unicode code points. Deterministic, UTF-8, no trailing newline, no network,
 Node 22 standard library only.
 
 ## Badges
